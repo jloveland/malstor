@@ -1,4 +1,6 @@
 # MalStor
+
+[![Join the chat at https://gitter.im/jloveland/malstor](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jloveland/malstor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 MalStor is used by Security Intelligence Center (SIC) Analysts to correlate between malware metadata and security intelligence knowlegde bases. This project is a collaboration between [Villanova](http://www.villanova.edu) College of Engineering and [Lockheed Martin](http://www.lockheedmartin.com) for Villanova's Senior Capstone Project.
 
 ## Documentation
