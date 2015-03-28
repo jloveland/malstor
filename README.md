@@ -9,14 +9,18 @@ For the first Semester, we will focus on documenting our approach to developing 
 * Clone your newly forked repository
 ` git clone https://github.com/<your-username>/malstor.git`
 * Create a new branch
-```
-cd malstore
-git checkout -b <my-branch-name>
+```SHELL
+$ cd malstore
+$ git checkout -b <my-branch-name>
 ```
 * Commit your changes
-`git commit -am 'adding my awesome feature'`
+```SHELL
+$ git commit -am 'adding my awesome feature'`
+```
 * Push to origin
-`git push origin <my-branch-name>`
+```SHELL
+$ git push origin <my-branch-name>`
+```
 * Create a pull request from your forked repo to the original repo
 * Have a conversation about the changes and Owners will merge after review
 
