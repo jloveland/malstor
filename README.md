@@ -1,6 +1,7 @@
 # MalStor
 
 [![Join the chat at https://gitter.im/lmco/malstor](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/lmco/malstor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 MalStor is used by Security Intelligence Center (SIC) Analysts to correlate between malware metadata and security intelligence knowlegde bases. This project is a collaboration between [Villanova](http://www.villanova.edu) College of Engineering and [Lockheed Martin](http://www.lockheedmartin.com) for Villanova's Senior Capstone Project.
 
 ## Documentation
@@ -27,5 +28,5 @@ $ git push origin <my-branch-name>`
 * Have a conversation about the changes and Owners will merge after review
 
 ## Community
-Use our Github [wiki](https://github.com/lmco/malstor/wiki) to learn about changes and the roadmap.
-Join us on [Gitter](https://gitter.im/)
+* Use our Github [wiki](https://github.com/lmco/malstor/wiki) to learn about changes and the roadmap.
+* Chat with us in [Gitter](https://gitter.im/lmco/malstor).
