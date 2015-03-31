@@ -4,6 +4,8 @@
 
 MalStor is used by Security Intelligence Center (SIC) Analysts to correlate between malware metadata and security intelligence knowlegde bases. This project is a collaboration between [Villanova](http://www.villanova.edu) College of Engineering and [Lockheed Martin](http://www.lockheedmartin.com) for Villanova's Senior Capstone Project.
 
+MalStor is a malware data repository that will allow for the extraction and storage of cyber intelligence metadata, attributes, and structural elements of malware. It will provide the ability to pivot and query on the stored data as well as adding additional metadata such as tagging and adversary attribution.
+
 ## Documentation
 For the first Semester, we will focus on documenting our approach to developing MalStor on our Github [wiki](https://github.com/lmco/malstor/wiki)
 
