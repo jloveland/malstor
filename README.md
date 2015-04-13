@@ -30,3 +30,4 @@ $ git push origin <my-branch-name>`
 ## Community
 * Use our Github [wiki](https://github.com/lmco/malstor/wiki) to learn about changes and the roadmap.
 * Chat with us in [Gitter](https://gitter.im/lmco/malstor).
+* Test
