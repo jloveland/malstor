@@ -18,7 +18,7 @@ Vagrant.configure('2') do |config|
     # server_config.vm.network "forwarded_port", guest: 8080, host: 8080
     server_config.vm.provider :virtualbox do |vb|
       #vb.gui = true
-      vb.customize ["modifyvm", :id, "--memory", "4096"]
+      vb.customize ["modifyvm", :id, "--memory", "2048"]
       # TODO: Find configsettings for two cpus
     end
     # server_config.vm.provider "vmware_workstation" do |vw|
@@ -33,13 +33,11 @@ Vagrant.configure('2') do |config|
   end
 
   config.vm.define :client do |client_config|
-    client_config.vm.box = 'ubuntu-1404-desktop'
-    # client_config.vm.box_url = 'https://vagrantcloud.com/janihur/boxes/ubuntu-1404-desktop'
     client_config.vm.hostname = 'malstor-client'
     client_config.vm.provider :virtualbox do |v|
       v.gui = true
       v.name = "malstor-client"
-      v.customize ["modifyvm", :id, "--memory", "2048"]
+      v.customize ["modifyvm", :id, "--memory", "1024"]
     end
     # client_config.vm.provider "vmware_workstation" do |vw|
     #   #vw.gui = true
@@ -47,10 +45,7 @@ Vagrant.configure('2') do |config|
     #   vw.vmx["numvcpus"] = "2"
     # end
     client_config.vm.network :private_network, ip: "10.211.55.101"
-    # client_config.vm.provision :shell, path: "script/TODO.sh"
-    client_config.vm.provision "shell" do |s|
-      s.inline = "apt-get install xfce4 -y"
-    end
+    client_config.vm.provision "shell", path: 'script/ubuntu-desktop.sh'
   end
 
 end
